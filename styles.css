@@ -31,6 +31,51 @@ footer {
     color: #fff;
 }
 
+@media (max-width: 1199px){
+    .container-sm
+    .container-md
+    .container-lg
+    .container-xl
+    .container-xxl {
+        width: 100%;
+        padding: 10px;
+    }
+    section {
+        margin: 15px;
+        padding: 15px;
+
+
+    }
+}
+
+@media (max-width: 768px) {
+    .container-sm
+    .container-md
+    .container-lg
+    .container-xl
+    .container-xxl {
+        width: 100%;
+        padding: 10px;
+    }
+    section {
+        margin: 10px;
+        padding: 10px;
+    }
+    body {
+        font-size: 15px;
+    }a
+    h1 {
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 @media (max-width: 600px) {
     section {
         margin: 10px;
